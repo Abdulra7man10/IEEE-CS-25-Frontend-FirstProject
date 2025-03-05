@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&display=swap');
+
+/* Featured Projects CSS */
+
+/* body {
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
+} */
+
+.works {
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+}
+.work-title {
+    width: 600px;
+    height: 138px;
+    margin-bottom: 80px;
+}
+.work-title h2 {
+    font-size: 76px;
+    font-weight: 400;
+    font-family: "Bebas Neue";
+    line-height: 76px;
+    color: #FFFFFF;
+    margin: 0 0 8px 0;
+}
+.work-title p {
+    font-family: "Manrope";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #C7C7C7;
+    margin: 0;
+}
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+    margin: 0 0 120px 0;
+    height: 600px;
+}
+
+/* Image Section */
+.image-container {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background-color:  #0d0d0d;
+    padding: 8px 16px;
+    font-size: 12px;
+    border-radius: 100px;
+    
+}
+
+.image {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.image img {
+    width: 486px;
+    height: auto;
+    border-radius: 12px;
+    margin: 126px 57px;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 576px;
+}
+.description h3 {
+    margin: 0 0 16px 0;
+    color: #FFFFFF;
+    font-family: "Manrope";
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44.8px;
+
+}
+.description p {
+    font-size: 18px;
+    color: #C7C7C7;
+    font-family: "Manrope";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    
+}
+.project-info {
+    margin: 32px 0;   
+    display: flex;
+    flex-direction: column;
+}
+.project-info .title {
+    border-bottom:1px solid #333;
+    padding-bottom : 16px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0;
+
+}
+
+.list .sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom:  1px solid #333;;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 25.6px;
+}
+.links {
+    display: flex;
+    width: 300px;
+    height: 30px;
+    flex-direction: row;
+    
+}
+.links a {
+    font-family: "Manrope";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #D3E97A;
+    text-decoration: none;
+    padding-right: 4px;
+}
+.links .demo {
+    margin-right: 24px;
+    border-bottom: 2px solid #D3E97A; 
+    padding-bottom: 4px;
+}
+
+
+@media (max-width: 768px) {
+    .project {
+        flex-direction: column;
+        align-items: center;
+    }
+    .work-title {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
