@@ -2,22 +2,19 @@
 *{
     font-family: "Manrope", serif;
     background-color: black;
-
 }
 
 /*start about section */
 
 .about {
+    width: 70%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .about div {
- 
-    padding: 5px 138px;
     width: 45%;
     letter-spacing: 1px;
-
 }
 .about h2 {
     color: white;
