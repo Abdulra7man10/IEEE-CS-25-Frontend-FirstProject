@@ -179,3 +179,63 @@ hr{
     color: rgba(211, 233, 122, 1);
     
 }
+
+
+/* Media Queries for Responsiveness */
+
+/* للأجهزة الصغيرة (الموبايلات) */
+@media (max-width: 768px) {
+    .about, .myCapabilities-contant, .MyExperience {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about div, .myCapabilities-contant div, .MyExperience .div-flex {
+        width: 90%;
+    }
+
+    .about h2, .myCapabilities-contant h2, .MyExperience h2 {
+        font-size: 36px;
+    }
+
+    .about p:nth-of-type(1) {
+        font-size: 16px;
+    }
+
+    .about p:nth-of-type(2), .myCapabilities-contant p, .MyExperience p {
+        font-size: 12px;
+    }
+
+    .about a:nth-of-type(1) {
+        padding: 8px 32px;
+        font-size: 14px;
+    }
+
+    .myCapabilities img {
+        width: 100%;
+    }
+
+    .myCapabilities-contant span {
+        padding: 10px 16px;
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .about, .myCapabilities-contant, .MyExperience {
+        flex-wrap: wrap;
+    }
+
+    .about div, .myCapabilities-contant div, .MyExperience .div-flex {
+        width: 80%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .about div, .myCapabilities-contant div, .MyExperience .div-flex {
+        width: 40%;
+    }
+}
